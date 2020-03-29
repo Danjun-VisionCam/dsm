@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css?family=Bellota+Text|Cinzel|Montserrat|PT+Sans|Playfair+Display|Roboto+Slab|Sen&display=swap');
+
+.logo {
+    display: flex;
+}
+.label {
+    display: inline-block;
+    margin-left: 20px ;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Sen', sans-serif;
+}
+
+.actived {
+    height: 100%;
+    background-color: #056c00;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.header {
+    height: 350px;
+    width: 100%;
+    background-color: #abf7a7;
+}
+.diapo {
+    height: 370px;
+    width: 100%;
+    top: 20px;
+    background-image: url(https://blog-fr.orson.io/wp-content/uploads/2017/06/jpeg-ou-png.jpg);
+    background-color: #c4c4c4;
+    background-position: center;
+    border-radius: 12px;
+    background-size: cover;
+    box-shadow : 0px 10px 50px -5px rgba(0, 0, 0, 0.473);
+    display: block;
+}
+.dsm {
+    display: block;
+}
+.dsm > h1 {
+    display : block
+}
+.diapo > .dsm {
+    font-family: 'Sen', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding: 220px 0 0 0;
+    margin: 20px ;
+}
+.dsm > .icon {
+    display: block;
+
+}
+.mission{
+    padding:  20px 0;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.none {
+
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Sen', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color : #045300;
+}
+.centre {
+    text-align: center;
+}
+.title {
+    display: block;
+    padding: 10px 0px;
+}
+.description {
+    width: 80%;
+    margin:  0 auto;
+    padding: 30px;
+}
+.gras {
+    font-weight: bold;
+}
+.gris {
+    color: silver;
+}
+.black {
+    color: rgb(44, 44, 44);
+}
+@media (max-width: 720px) {
+    .actived {
+    height: 100%;
+    background-color: #056c00;
+    padding:  15px;
+    border-radius: 6px;
+    margin: 0px -10px  ;
+    text-align: center;
+}
+    .header {
+        height: 550px;
+        width: 100%;
+        background-color: #abf7a7;
+    }
+    .diapo {
+        height: 570px;
+        width: 100%;
+        padding-top: 100px;
+        background-image: url(https://blog-fr.orson.io/wp-content/uploads/2017/06/jpeg-ou-png.jpg);
+        background-color: #c4c4c4;
+        background-position: center;
+        border-radius: 12px;
+        background-size: cover;
+        box-shadow : 0px 10px 60px -5px rgba(0, 0, 0, 0.473);
+    }
+    .diapo > .dsm {
+        font-family: 'Sen', sans-serif;
+        margin: 20px ;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .description {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+  }
+.description > p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.auteur {
+    padding: 0px;
+    margin: 0 auto;
+    width: 50%;
+}
+.text {
+    padding-top: 100px;
+}
+.icon_auteur {
+    background-image: url(https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-size: cover;
+    box-shadow: silver 0px 5px 10px 0px ;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.icon_auteur_dms {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQFWO-O-199kDw/company-background_10000/0?e=2159024400&v=beta&t=XUwz8vuue4aXaCGOUgKKDtWoODO5fVerEdeEP4rarvE);
+    background-size: cover;
+    background-position: center;
+    box-shadow: silver 0px 5px 10px 0px ;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+@media (max-width: 720px) {
+    .auteur {
+        width: 100%;
+    }
+  }
+.nom {
+    margin-top: 5px;
+}
+.nom > h4 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: -3px; 
+}
+.border {
+    border: 1px solid;
+    border-radius: 12px;
+    margin-right: 10px ;
+    margin-top: 10px ;
+}
+.nom > p {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.oeuvre { 
+    padding: 20px 0px;
+    width: 100%;
+    background-image: url('yaounde.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+a {
+    color: black;
+}
+.element {
+    text-align: center;
+    display: flex;
+}
+.element-1 {
+    display: inline-block;
+    height: 335px;
+    width: 275px;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 15px auto;
+    word-wrap: wrap break-word;
+    text-align: left;
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.473);
+}
+.description > .title {
+    font-weight: bold;
+}
+
+@media (max-width: 720px) {
+    .element {
+        display: flex;
+        overflow-x: auto;
+    }
+    .element-1 {
+        height: 335px;
+        min-width: 220px;
+        margin-right: 15px;
+    }
+    .element .element-1{
+
+    }
+    .title {
+        display: block;
+    }
+  }
+.element-1+.element-1 {
+    margin-left:40px;
+}
+@media (max-width: 720px) {
+    .element-1+.element-1 {
+        margin-left:0px;
+    }
+  }
+.elements { display: flex;
+}
+
+.projet > .element-1 {
+    display: inline-block;
+    height: 335px;
+    min-width: 250px;
+    background-color: white;
+    box-sizing: content-box;
+    border-radius: 12px;
+    overflow: hidden;
+    word-wrap: wrap break-word;
+    text-align: left;
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.473);
+}
+.projet > .element-1+.element-1 {
+    margin-left:10px;
+}
+.image {
+    background-image: url(https://lencrenoir.com/wp-content/uploads/2013/04/madonna-malawi.jpg);
+    background-size: cover;
+    background-position: center;
+    height : 211px ;
+}
+
+.element-2{
+    display: inline-block;
+    border-radius: 12px;
+    width: 48%;
+    overflow: hidden;
+    margin-right: 10px ;
+    margin-bottom: 20px;
+}
+.image-2{
+    background-image: url(https://www.rtl.be/videos/ged_vp/03050000/3055400/3055443.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 335px;
+}
+.descript {
+    display: inline-block;
+    width: 47%;
+    text-align: left;
+    padding: 0 20px ;
+    min-height: 335px;
+    margin-bottom: 20px;
+}
+.projet {
+    padding: 20px 0;
+}
+@media (max-width: 720px) {
+    .elements {
+        display: block;
+    }
+    .element-2{
+        display: inline-block;
+        width: 100%;
+        
+    }
+    .image-2{
+        height: 205px;
+    }
+    .descript {
+        display:block;
+        width: 100%;
+        padding: 0;
+    }
+    .projet {
+        padding: 20px 0;
+    }
+    .projet > .element{
+        display: block;
+    }
+  }
+
+footer {
+    bottom: 0;
+    position: relative;
+    background-color: black;
+}
+
+
+
+.section {
+    color : white;
+    display: inline-block;
+    width: 335px;
+    margin-right: 10;
+    box-sizing: content-box;
+    overflow: hidden;
+    word-wrap: wrap break-word;
+    text-align: left;
+    vertical-align: top;
+    margin : 20px 0
+}
+
+.icon {
+    background-image: url(https://media-exp1.licdn.com/dms/image/C561BAQFWO-O-199kDw/company-background_10000/0?e=2159024400&v=beta&t=XUwz8vuue4aXaCGOUgKKDtWoODO5fVerEdeEP4rarvE);
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.membres {
+    margin-top: 30px;
+}
+.projet_futur {
+    background-image: url(https://france3-regions.francetvinfo.fr/bretagne/sites/regions_france3/files/styles/top_big/public/assets/images/2019/07/10/8417_6326_1.vuepontalma_large.jpeg1_-4336100.jpg?itok=QE3u-9ND);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    color : white;
+}
+.filter {
+    height: 100%;
+    width: 100%;
+    background-color: #0dff0041;
+}
+.container > .text-bis {
+    padding-top: 85px;
+    color: white;
+}
+.text-bis h3 {
+    color: black;
+}
+
+
+@media (max-width: 720px) {
+    .container > .text-bis {
+        padding-top: 55px;
+        color: white;
+    }
+    .text-bis h3 {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+  }
